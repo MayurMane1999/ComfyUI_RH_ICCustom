@@ -101,9 +101,9 @@ Create the following directory structure in your ComfyUI models folder:
 
 ## 🔧 Requirements
 
-- **GPU Memory**: 8GB+ VRAM recommended
-- **System RAM**: 16GB+ recommended
-- **Storage**: ~25GB for all models
+- **GPU Memory**: 16GB+ VRAM recommended
+- **System RAM**: 32GB+ recommended
+- **Storage**: ~100B for all models
 - **Dependencies**: PyTorch, Diffusers, Transformers
 
 ## 📄 License
