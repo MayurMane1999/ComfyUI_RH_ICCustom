@@ -101,9 +101,9 @@ pip install -r requirements.txt
 
 ## 🔧 系统需求
 
-- **显存**：推荐8GB+显存
-- **内存**：推荐16GB+系统内存
-- **存储空间**：所有模型约需25GB
+- **显存**：推荐16GB+显存
+- **内存**：推荐32GB+系统内存
+- **存储空间**：所有模型约需100GB
 - **依赖项**：PyTorch、Diffusers、Transformers
 
 ## 📄 许可证
