@@ -59,12 +59,17 @@ Create the following directory structure in your ComfyUI models folder:
 - Files: All files from the repository
 - Location: `ComfyUI/models/clip/xflux_text_encoders/`
 
-#### CLIP Vision Model
+#### CLIP Vision Models
 
 **CLIP ViT Large:**
 - Download: [clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14/tree/main)
 - Files: All files from the repository
 - Location: `ComfyUI/models/clip_vision/clip-vit-large-patch14/`
+
+**SigCLIP Vision:**
+- Download: [sigclip_vision_patch14_384](https://huggingface.co/funnewsr/sigclip_vision_patch14_384/tree/main)
+- File: `sigclip_vision_patch14_384.safetensors`
+- Location: `ComfyUI/models/clip_vision/`
 
 ## 🚀 Usage
 

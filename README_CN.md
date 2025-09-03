@@ -66,6 +66,11 @@ pip install -r requirements.txt
 - 文件：仓库中的所有文件
 - 存放位置：`ComfyUI/models/clip_vision/clip-vit-large-patch14/`
 
+**SigCLIP Vision：**
+- 下载地址：[sigclip_vision_patch14_384](https://huggingface.co/funnewsr/sigclip_vision_patch14_384/tree/main)
+- 文件：`sigclip_vision_patch14_384.safetensors`
+- 存放位置：`ComfyUI/models/clip_vision/`
+
 ## 🚀 使用方法
 
 ### 基础工作流
