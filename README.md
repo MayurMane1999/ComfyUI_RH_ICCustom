@@ -119,6 +119,8 @@ This project is licensed under the Apache 2.0 License.
 ## 🙏 Acknowledgments
 
 Special thanks to **AIwood爱屋研究室** ([Bilibili](https://space.bilibili.com/503934057)) for helping with Windows environment testing and contributing to the installation documentation.
+<img width="1464" height="1140" alt="image" src="https://github.com/user-attachments/assets/f77bf3e1-ece3-4c70-9bbe-2e77044cfa1e" />
+<img width="1706" height="1119" alt="image" src="https://github.com/user-attachments/assets/71cd94aa-7f45-4fc3-a06d-37105cf7daae" />
 
 ## 🤝 Contributing
 
